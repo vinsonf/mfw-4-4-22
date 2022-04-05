@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
+    <a href="../">Home</a>
     <h1>Day 1</h1>
 
     <hr>
@@ -17,33 +18,37 @@
             <code>git status</code>
             <h3>describes our git condition</h3>
             <p> <em>Pictured Below:</em>   <span class="code">git status</span> after making changes</p>
-            <img width="500" src="./img/git-status-after-changes.png" alt="">
+            <img  src="./img/git-status-after-changes.png" alt="">
         </li>
         <li>
             <code>git add .</code>
             <h3>Stages everything we changed</h3>
             <p> <em>Pictured Below:</em>   <span class="code">git status</span> after running <span class="code">git add .</span></p>
-            <img width="500" src="./img/git-status-after-add.png" alt="">
+            <img  src="./img/git-status-after-add.png" alt="">
         </li>
         <li>
             <code>git commit -m "message"</code>
             <h3>Puts a label on the changes</h3>
             <p> <em>Pictured Below:</em>   <span class="code">git status</span> after running <span class="code">git commit -m "message"</span></p>
-            <img width="500" src="./img/git-status-after-commit.png" alt="">
+            <img  src="./img/git-status-after-commit.png" alt="">
         </li>
         <li>
             <code>git push</code>
             <h3>Pushes all committed changes to remote(github)</h3>
             <p> <em>Pictured Below:</em>   <span class="code">git status</span> after running <span class="code">git push</span></p>
-            <img width="500" src="./img/git-status-after-push.png" alt="">
+            <img  src="./img/git-status-after-push.png" alt="">
         </li>
         <li>
             <code>git checkout -b `name of branch`</code>
-            <h3>Creates a new branch with the specified name</h3>
+            <h3>Creates a new branch with the specified name and switches to it</h3>
         </li>
         <li>
             <code>git checkout `name of branch`</code>
-            <h3>switches to specified branch</h3>
+            <h3>Switches to specified branch</h3>
+        </li>
+        <li>
+            <code>git pull</code>
+            <h3>Pulls all changes from remote branch into local branch usually ran from (master/main)</h3>
         </li>
     </ul>
 
@@ -74,5 +79,23 @@
                 <code>git push</code>
             </p>
         </li>
+        <li>
+            <h3>Create Pull Request (on github)</h3>
+            <img src="./img/github-compare.png" alt="">
+            <h4>Then...</h4>
+            <img src="./img/github-create-pr.png" alt="">
+
+        </li>
+        <li>
+            <h3>Merge Pull Request (on github)</h3>
+            <img src="./img/github-merge.png" alt="">
+        </li>
+        <li>
+            <h3>Pull changes into master/main branch</h3>
+            <p>
+                <code>git pull</code>
+            </p>
+        </li>
+    </ul>
 </body>
 </html>
