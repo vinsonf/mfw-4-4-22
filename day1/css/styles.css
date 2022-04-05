@@ -19,6 +19,7 @@ li {
     margin: .5rem 0;
     overflow: scroll;
     border-radius: .3rem;
+    background-color: rgba(0, 2, 0, .03);
 }
 ul {
     margin: 0;
@@ -27,4 +28,22 @@ ul {
 
 hr {
     margin-top: 4rem;
+    margin-bottom: 2rem;
+    border-color: red;
+}
+hr:first-of-type {
+    margin-top: 1rem;
+}
+
+ul li img {
+    width: 600px;
+    height: auto;
+    box-shadow: 0 0 .1rem rgba(0, 5, 0, .5);
+}
+ul li img:hover {
+   width: 100%;
+}
+
+h4 {
+    margin: .4rem 0;
 }
