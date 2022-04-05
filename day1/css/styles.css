@@ -41,7 +41,7 @@ ul li img {
     box-shadow: 0 0 .1rem rgba(0, 5, 0, .5);
 }
 ul li img:hover {
-   width: 100%;
+   width: 800px;
 }
 
 h4 {
