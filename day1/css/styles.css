@@ -27,4 +27,6 @@ ul {
 
 hr {
     margin-top: 4rem;
+    margin-bottom: 2rem;
+    border-color: red;
 }
