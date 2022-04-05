@@ -1,3 +1,21 @@
 body {
     padding: 2rem;
 }
+
+.code, code {
+    padding: .2rem;
+    /* light opacity grey background color */
+    background-color: rgba(0, 5, 0, .05);
+    color: red;
+    border-radius: .3rem;
+    font-size: 1.1rem;
+    box-shadow: 0 0 .1rem rgba(0, 5, 0, .5)
+}
+
+li {
+    list-style: none;
+    border: 10px solid rgba(0, 5, 0, .5);
+    padding: 2rem;
+    margin: .5rem;
+    overflow: scroll;
+}
