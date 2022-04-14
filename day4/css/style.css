@@ -1,0 +1,51 @@
+
+.flex {
+    display: flex;
+    /* flex-wrap: wrap; */
+    height: 800px;
+    background: yellow;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.box {
+    border: 1px solid #000;
+    height: 100px;
+    display: inline-block;
+    width: 100%;
+}
+
+.box:nth-child(1) {
+    background: pink;
+    align-self: center;
+}
+
+
+@media (min-width: 1299px) {
+    .box {
+        width: 15%;
+        background-color: purple
+    }
+}
+
+@media (max-width: 1298px) {
+    .box {
+        width: 20%;
+        background: green;
+    }
+}
+
+@media (max-width: 888px) {
+    .box {
+        width: 45%;
+        background: blue;
+    }
+}
+
+@media (max-width: 768px) {
+    .box {
+        width: 100px;
+        background: red;
+    }
+}
