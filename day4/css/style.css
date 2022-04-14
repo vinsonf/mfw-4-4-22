@@ -16,6 +16,10 @@
     width: 100%;
 }
 
+.card {
+    margin-bottom: 10px;;
+}
+
 .box:nth-child(1) {
     background: pink;
     align-self: center;
