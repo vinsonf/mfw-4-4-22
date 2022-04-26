@@ -1,0 +1,33 @@
+:root{
+    --jumbo-margin: 50px;
+    --jumbo-padding: 80px;
+}
+
+.jumbotron-container {
+    margin-left: var(--jumbo-margin);
+    margin-right: var(--jumbo-margin);
+    background-color: rgb(227, 224, 224);
+    margin-top: var(--jumbo-margin);
+    padding: var(--jumbo-padding);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: clamp(20px, 3vw, 30px);
+    border-radius: 4px;
+}
+
+.jumbotron-container h2 {
+    margin-bottom: 20px;
+}
+
+.jumbotron-container p {
+    padding-right: 30%;
+    margin-top: 0;
+}
+
+.jumbotron-container button {
+    background-color: #0d6efd;
+    color: white;
+    padding: 12px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+}
