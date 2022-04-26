@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Tapestry&display=swap');
+
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border: 2px solid black;
+    display: inline-block;
+    /* box-sizing: border-box; */
+}
+
+.main {
+    background-color: green;
+    /* margin-bottom: 200px; */
+    /* padding: 20px; */
+    position: relative;
+    /* display: none; */
+   
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    z-index: -1;
+    margin-right: 50px;
+
+    left: 90px;
+    top: 30px;
+
+}
+
+body {
+    background-color: blue;
+}
+
+.parent {
+    background-color: transparent;
+    height: 400px;
+    width: 400px;
+    top: 200px;
+    /* position: absolute; */
+
+}
+
+body {
+    font-family: 'Lobster', sans-serif;
+    font-size: 30px;
+    color: white;
+}
