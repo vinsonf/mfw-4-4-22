@@ -1,0 +1,24 @@
+@import './images.css';
+
+
+
+#hero {
+    background-image: var(--img-bw);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-shadow: 0 0 10px black;
+    /* font-family: 'Lobster', cursive; */
+    font-family: 'Tapestry', cursive;
+}
+
+#hero p {
+    background-color: rgba(100, 100, 100, .4);
+    
+}
+
+#cards {
+    position: relative;
+    top: -40px;
+    font-family: 'Lobster', cursive;
+}

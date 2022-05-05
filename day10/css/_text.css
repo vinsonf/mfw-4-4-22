@@ -1,0 +1,13 @@
+.text-lg {
+    font-size: 60px;
+}
+.text-md {
+    font-size: 40px;
+}
+
+.secondary-font {
+    font-family: cursive;
+}
+.primary-color {
+    color: red;
+}
