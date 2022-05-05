@@ -1,0 +1,17 @@
+
+.small-border {
+    border: 2px solid black;
+}
+
+.large-border {
+    border: 5px solid black;
+}
+
+
+.red-border {
+    border-color: red;
+}
+
+.green-border {
+    border-color: green;
+}

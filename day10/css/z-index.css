@@ -1,0 +1,70 @@
+.cards {
+    width: 200px;
+    min-height: 300px;
+    border: 1px solid black;
+    background-color: aquamarine;
+    color: rebeccapurple;
+    font-size: 30px;
+    position: absolute;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+:root {
+    --ani: shuffle 10s infinite;
+}
+
+
+
+.cards:nth-of-type(1) {
+    animation: var(--ani);
+    left: 10px;
+}
+.cards:nth-of-type(2) {
+    animation: var(--ani);
+    animation-delay: 2s;
+    left: 20px;
+}
+.cards:nth-of-type(3) {
+    animation: var(--ani);
+    animation-delay: 4s;
+    left: 30px;
+}
+.cards:nth-of-type(4) {
+    animation: var(--ani);
+    animation-delay: 6s;
+    left: 40px;
+}
+.cards:nth-of-type(5) {
+    animation: var(--ani);
+    animation-delay: 8s;
+    left: 50px;
+}
+
+
+
+
+
+
+@keyframes shuffle {
+    0% {
+       z-index: 0;
+       /* background-color: red; */
+    }
+    50% {
+        z-index: 5;
+    }
+    100% {
+       z-index: 0;
+         background-color: blue;
+    }
+
+}
+
+
