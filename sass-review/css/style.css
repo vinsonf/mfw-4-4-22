@@ -1,0 +1,100 @@
+body {
+  background-color: purple;
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  background-color: black;
+  padding: 0 60px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.header ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.skills {
+  background-color: #f5f5f5;
+  padding: 1px 60px;
+}
+.skills ul {
+  font-size: 40px;
+}
+.skills h2 {
+  font-size: 60px;
+  color: white;
+  text-shadow: 0 0 10px purple;
+}
+
+.projects {
+  background-color: purple;
+  padding: 1px 60px;
+}
+.projects h2 {
+  font-size: 60px;
+  color: purple;
+  text-shadow: 0 0 10px white;
+}
+.projects ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.projects ul li {
+  border: 5px solid white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 200px;
+  height: 300px;
+}
+.projects ul li h3 {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+.about {
+  background-color: white;
+  padding: 1px 60px;
+}
+.about h2 {
+  font-size: 60px;
+  color: purple;
+  text-shadow: 0 0 10px white;
+}
+.about p {
+  font-size: 30px;
+  color: purple;
+}
+
+.active {
+  background-color: lime;
+}
+
+.modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal .form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+/*# sourceMappingURL=style.css.map */
