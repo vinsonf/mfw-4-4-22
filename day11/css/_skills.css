@@ -1,0 +1,10 @@
+.skills-container {
+    background-color: gold;
+}
+
+.skills-container h3 {
+    margin-top: 40px;
+}
+.skills-container h2 {
+    text-shadow: 5px 5px 5px rgb(133, 97, 97);
+}

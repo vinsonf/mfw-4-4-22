@@ -1,0 +1,30 @@
+@import './_images.css';
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Lobster&family=Macondo&family=Oleo+Script+Swash+Caps:wght@400;700&family=Tapestry&display=swap');
+@import './_hero.css';
+@import './_about.css';
+@import './_projects.css';
+@import './_skills.css';
+
+
+:root{
+    --fs-1: 'Macondo', cursive;
+    --fs-2: 'Oleo Script Swash Caps', cursive;
+    --fs-3: 'Tapestry', cursive;
+    --fs-4: 'Koulen', cursive;
+    --fs-5: 'Lobster', cursive;
+
+}
+
+body {
+    font-family: var(--fs-4);
+    background-color: #06350d;
+}
+
+.progess {
+    gap: 10px;
+}
+
+
+
+
+
