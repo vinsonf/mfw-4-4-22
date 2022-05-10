@@ -23,3 +23,8 @@ cards.forEach(function(card) {
         card.classList.remove('active');
     })
 });
+
+
+document.querySelector('.modal button').addEventListener('click', function() {
+    document.querySelector('.modal').classList.add('hidden');
+})
